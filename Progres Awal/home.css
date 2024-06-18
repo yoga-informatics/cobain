@@ -1,0 +1,270 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Start Header */
+
+header.hero {
+  background: url("image/Wisata1.jpg") no-repeat center center/cover;
+  color: white;
+  height: 80vh;
+  position: relative;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 150px; /* Atur lebar gambar */
+  height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.lang-login {
+  display: flex;
+  align-items: center;
+}
+
+.lang img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.login-btn {
+  background-color: #31304d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-content h1 {
+  font-size: 2.5em;
+  color: white;
+  max-width: 800px; /* Set a maximum width to wrap the text */
+  margin: 0 auto; /* Center the text within the .hero-content */
+}
+
+.explore-btn {
+  background-color: #31304d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin: 20px auto; /* Center the button and add some spacing */
+}
+
+/* End Header */
+
+main {
+  padding: 50px;
+}
+
+/* Start popular-destinations */
+.popular-destinations {
+  text-align: center;
+}
+
+.popular-destinations h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.popular-destinations p {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+
+.destinations-slider {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.destination-card {
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.destination-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.destination-card h3 {
+  margin: 10px 0;
+}
+
+.destination-card .rating {
+  color: gold;
+}
+
+.lihat-btn {
+  background-color: #31304d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.destination-description {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* End popular-destinations */
+
+/* Start testimonials */
+.testimonials {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-card p {
+  margin: 10px 0;
+}
+
+/* End testimonials */
+
+/* Start Footer */
+footer {
+  background: #003366;
+  color: white;
+  padding: 50px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-left h2 {z
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.footer-left p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.footer-links h2,
+.footer-social h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-social ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  background: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.9em;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 10px 0;
+}
+
+/* End Footer */
